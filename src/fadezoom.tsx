@@ -232,7 +232,6 @@ export const FadeZoom = React.forwardRef<SlideshowRef, ZoomProps>((props, ref) =
                                     data-index={key}
                                     key={key}
                                     aria-roledescription="slide"
-                                    aria-hidden={key === index ? 'false' : 'true'}
                                 >
                                     {each}
                                 </div>
